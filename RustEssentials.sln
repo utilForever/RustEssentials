@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1", "Chapter 1", "{7BCEF2EC-4440-4718-B5A2-976DF1DE0C62}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Welcome", "Chapter 1\Welcome\Welcome.rsproj", "{FE9583E6-2A3B-4819-B212-D84F476E81D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|default = Debug|default
+		Release|default = Release|default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE9583E6-2A3B-4819-B212-D84F476E81D4}.Debug|default.ActiveCfg = Debug|default
+		{FE9583E6-2A3B-4819-B212-D84F476E81D4}.Debug|default.Build.0 = Debug|default
+		{FE9583E6-2A3B-4819-B212-D84F476E81D4}.Release|default.ActiveCfg = Release|default
+		{FE9583E6-2A3B-4819-B212-D84F476E81D4}.Release|default.Build.0 = Release|default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE9583E6-2A3B-4819-B212-D84F476E81D4} = {7BCEF2EC-4440-4718-B5A2-976DF1DE0C62}
+	EndGlobalSection
+EndGlobal
