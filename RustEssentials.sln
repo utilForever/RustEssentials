@@ -31,6 +31,12 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Constants1", "Chapter 2\Cod
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Constants2", "Chapter 2\Codes\Constants2\Constants2.rsproj", "{15897E56-AD84-4853-BA9B-891BF202D369}"
 EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Expressions", "Chapter 2\Codes\Expressions\Expressions.rsproj", "{3143E9AD-3DF9-4A59-A557-1AC6E0FDC7DE}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "MutableConstant", "Chapter 2\Codes\MutableConstant\MutableConstant.rsproj", "{062A4111-03C0-46D2-8BA1-CB4F4488E55F}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "References", "Chapter 2\Codes\References\References.rsproj", "{12A0BE32-3497-4D83-94BA-B4B9836FF405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -69,6 +75,18 @@ Global
 		{15897E56-AD84-4853-BA9B-891BF202D369}.Debug|default.Build.0 = Debug|default
 		{15897E56-AD84-4853-BA9B-891BF202D369}.Release|default.ActiveCfg = Release|default
 		{15897E56-AD84-4853-BA9B-891BF202D369}.Release|default.Build.0 = Release|default
+		{3143E9AD-3DF9-4A59-A557-1AC6E0FDC7DE}.Debug|default.ActiveCfg = Debug|default
+		{3143E9AD-3DF9-4A59-A557-1AC6E0FDC7DE}.Debug|default.Build.0 = Debug|default
+		{3143E9AD-3DF9-4A59-A557-1AC6E0FDC7DE}.Release|default.ActiveCfg = Release|default
+		{3143E9AD-3DF9-4A59-A557-1AC6E0FDC7DE}.Release|default.Build.0 = Release|default
+		{062A4111-03C0-46D2-8BA1-CB4F4488E55F}.Debug|default.ActiveCfg = Debug|default
+		{062A4111-03C0-46D2-8BA1-CB4F4488E55F}.Debug|default.Build.0 = Debug|default
+		{062A4111-03C0-46D2-8BA1-CB4F4488E55F}.Release|default.ActiveCfg = Release|default
+		{062A4111-03C0-46D2-8BA1-CB4F4488E55F}.Release|default.Build.0 = Release|default
+		{12A0BE32-3497-4D83-94BA-B4B9836FF405}.Debug|default.ActiveCfg = Debug|default
+		{12A0BE32-3497-4D83-94BA-B4B9836FF405}.Debug|default.Build.0 = Debug|default
+		{12A0BE32-3497-4D83-94BA-B4B9836FF405}.Release|default.ActiveCfg = Release|default
+		{12A0BE32-3497-4D83-94BA-B4B9836FF405}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +104,8 @@ Global
 		{9E3C286E-CB81-4825-A946-49F4F5A14762} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
 		{5725C4E6-387C-44E0-9039-AA79602F5742} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
 		{15897E56-AD84-4853-BA9B-891BF202D369} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{3143E9AD-3DF9-4A59-A557-1AC6E0FDC7DE} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{062A4111-03C0-46D2-8BA1-CB4F4488E55F} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{12A0BE32-3497-4D83-94BA-B4B9836FF405} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
 	EndGlobalSection
 EndGlobal
