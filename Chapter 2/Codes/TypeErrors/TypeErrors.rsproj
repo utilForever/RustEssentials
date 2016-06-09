@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">default</Platform>
+    <ProjectGuid>1fcc2669-7237-4320-9994-f0b2113f5368</ProjectGuid>
+    <OutputType>exe</OutputType>
+    <CrateName>TypeErrors</CrateName>
+    <Name>TypeErrors</Name>
+    <RootNamespace>TypeErrors</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|default' ">
+    <LinkTimeOptimization>false</LinkTimeOptimization>
+    <DebugSymbols>true</DebugSymbols>
+    <OptimizationLevel>0</OptimizationLevel>
+    <PlatformTarget>default</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|default' ">
+    <LinkTimeOptimization>false</LinkTimeOptimization>
+    <DebugSymbols>false</DebugSymbols>
+    <OptimizationLevel>2</OptimizationLevel>
+    <PlatformTarget>default</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Code Include="src\main.rs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\VisualRust\VisualRust.Rust.targets" />
+</Project>
