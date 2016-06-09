@@ -15,6 +15,22 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Name", "Chapter 1\Exercises
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "SmallestProgram", "Chapter 1\Exercises\SmallestProgram\SmallestProgram.rsproj", "{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 2", "Chapter 2", "{9761F96E-AAB3-4D63-B431-B0DDDFDBD2FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codes", "Codes", "{BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{5F548A6A-B4A9-4446-97F3-71CD01CB14BE}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Alias", "Chapter 2\Codes\Alias\Alias.rsproj", "{6EC5E9DE-DE93-434A-8AE0-560B7D4F80E0}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Bindings", "Chapter 2\Codes\Bindings\Bindings.rsproj", "{AA8CCA58-71A9-4F98-82A6-B8532691C849}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Comments", "Chapter 2\Codes\Comments\Comments.rsproj", "{9E3C286E-CB81-4825-A946-49F4F5A14762}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Constants1", "Chapter 2\Codes\Constants1\Constants1.rsproj", "{5725C4E6-387C-44E0-9039-AA79602F5742}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Constants2", "Chapter 2\Codes\Constants2\Constants2.rsproj", "{15897E56-AD84-4853-BA9B-891BF202D369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -33,6 +49,26 @@ Global
 		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}.Debug|default.Build.0 = Debug|default
 		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}.Release|default.ActiveCfg = Release|default
 		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}.Release|default.Build.0 = Release|default
+		{6EC5E9DE-DE93-434A-8AE0-560B7D4F80E0}.Debug|default.ActiveCfg = Debug|default
+		{6EC5E9DE-DE93-434A-8AE0-560B7D4F80E0}.Debug|default.Build.0 = Debug|default
+		{6EC5E9DE-DE93-434A-8AE0-560B7D4F80E0}.Release|default.ActiveCfg = Release|default
+		{6EC5E9DE-DE93-434A-8AE0-560B7D4F80E0}.Release|default.Build.0 = Release|default
+		{AA8CCA58-71A9-4F98-82A6-B8532691C849}.Debug|default.ActiveCfg = Debug|default
+		{AA8CCA58-71A9-4F98-82A6-B8532691C849}.Debug|default.Build.0 = Debug|default
+		{AA8CCA58-71A9-4F98-82A6-B8532691C849}.Release|default.ActiveCfg = Release|default
+		{AA8CCA58-71A9-4F98-82A6-B8532691C849}.Release|default.Build.0 = Release|default
+		{9E3C286E-CB81-4825-A946-49F4F5A14762}.Debug|default.ActiveCfg = Debug|default
+		{9E3C286E-CB81-4825-A946-49F4F5A14762}.Debug|default.Build.0 = Debug|default
+		{9E3C286E-CB81-4825-A946-49F4F5A14762}.Release|default.ActiveCfg = Release|default
+		{9E3C286E-CB81-4825-A946-49F4F5A14762}.Release|default.Build.0 = Release|default
+		{5725C4E6-387C-44E0-9039-AA79602F5742}.Debug|default.ActiveCfg = Debug|default
+		{5725C4E6-387C-44E0-9039-AA79602F5742}.Debug|default.Build.0 = Debug|default
+		{5725C4E6-387C-44E0-9039-AA79602F5742}.Release|default.ActiveCfg = Release|default
+		{5725C4E6-387C-44E0-9039-AA79602F5742}.Release|default.Build.0 = Release|default
+		{15897E56-AD84-4853-BA9B-891BF202D369}.Debug|default.ActiveCfg = Debug|default
+		{15897E56-AD84-4853-BA9B-891BF202D369}.Debug|default.Build.0 = Debug|default
+		{15897E56-AD84-4853-BA9B-891BF202D369}.Release|default.ActiveCfg = Release|default
+		{15897E56-AD84-4853-BA9B-891BF202D369}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +79,12 @@ Global
 		{FE9583E6-2A3B-4819-B212-D84F476E81D4} = {107429B8-2121-486D-A455-94F04D080F4D}
 		{E111587B-F26C-4631-BB80-D2625C2FA872} = {F244B70F-1F2E-4D4D-BD5B-22B6FCBC7BCE}
 		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D} = {F244B70F-1F2E-4D4D-BD5B-22B6FCBC7BCE}
+		{BBA6987E-1B0E-4845-BF35-DF1E15F56A9B} = {9761F96E-AAB3-4D63-B431-B0DDDFDBD2FA}
+		{5F548A6A-B4A9-4446-97F3-71CD01CB14BE} = {9761F96E-AAB3-4D63-B431-B0DDDFDBD2FA}
+		{6EC5E9DE-DE93-434A-8AE0-560B7D4F80E0} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{AA8CCA58-71A9-4F98-82A6-B8532691C849} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{9E3C286E-CB81-4825-A946-49F4F5A14762} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{5725C4E6-387C-44E0-9039-AA79602F5742} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{15897E56-AD84-4853-BA9B-891BF202D369} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
 	EndGlobalSection
 EndGlobal
