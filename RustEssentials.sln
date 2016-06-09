@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25402.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1", "Chapter 1", "{7BCEF2EC-4440-4718-B5A2-976DF1DE0C62}"
 EndProject
-Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Welcome", "Chapter 1\Welcome\Welcome.rsproj", "{FE9583E6-2A3B-4819-B212-D84F476E81D4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codes", "Codes", "{107429B8-2121-486D-A455-94F04D080F4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{F244B70F-1F2E-4D4D-BD5B-22B6FCBC7BCE}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Welcome", "Chapter 1\Codes\Welcome\Welcome.rsproj", "{FE9583E6-2A3B-4819-B212-D84F476E81D4}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Name", "Chapter 1\Exercises\Name\Name.rsproj", "{E111587B-F26C-4631-BB80-D2625C2FA872}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "SmallestProgram", "Chapter 1\Exercises\SmallestProgram\SmallestProgram.rsproj", "{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +25,23 @@ Global
 		{FE9583E6-2A3B-4819-B212-D84F476E81D4}.Debug|default.Build.0 = Debug|default
 		{FE9583E6-2A3B-4819-B212-D84F476E81D4}.Release|default.ActiveCfg = Release|default
 		{FE9583E6-2A3B-4819-B212-D84F476E81D4}.Release|default.Build.0 = Release|default
+		{E111587B-F26C-4631-BB80-D2625C2FA872}.Debug|default.ActiveCfg = Debug|default
+		{E111587B-F26C-4631-BB80-D2625C2FA872}.Debug|default.Build.0 = Debug|default
+		{E111587B-F26C-4631-BB80-D2625C2FA872}.Release|default.ActiveCfg = Release|default
+		{E111587B-F26C-4631-BB80-D2625C2FA872}.Release|default.Build.0 = Release|default
+		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}.Debug|default.ActiveCfg = Debug|default
+		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}.Debug|default.Build.0 = Debug|default
+		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}.Release|default.ActiveCfg = Release|default
+		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FE9583E6-2A3B-4819-B212-D84F476E81D4} = {7BCEF2EC-4440-4718-B5A2-976DF1DE0C62}
+		{107429B8-2121-486D-A455-94F04D080F4D} = {7BCEF2EC-4440-4718-B5A2-976DF1DE0C62}
+		{F244B70F-1F2E-4D4D-BD5B-22B6FCBC7BCE} = {7BCEF2EC-4440-4718-B5A2-976DF1DE0C62}
+		{FE9583E6-2A3B-4819-B212-D84F476E81D4} = {107429B8-2121-486D-A455-94F04D080F4D}
+		{E111587B-F26C-4631-BB80-D2625C2FA872} = {F244B70F-1F2E-4D4D-BD5B-22B6FCBC7BCE}
+		{BBCF1F4A-B39D-477A-831B-F8F7AAABDB8D} = {F244B70F-1F2E-4D4D-BD5B-22B6FCBC7BCE}
 	EndGlobalSection
 EndGlobal
