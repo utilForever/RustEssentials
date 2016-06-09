@@ -37,6 +37,20 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "MutableConstant", "Chapter 
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "References", "Chapter 2\Codes\References\References.rsproj", "{12A0BE32-3497-4D83-94BA-B4B9836FF405}"
 EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Scope", "Chapter 2\Codes\Scope\Scope.rsproj", "{A574E86E-DA45-4672-8C73-4F8BB921D37F}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "TypeConversions", "Chapter 2\Codes\TypeConversions\TypeConversions.rsproj", "{0FFC726C-593C-4CE0-B5AA-03AC6352DE50}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "TypeErrors", "Chapter 2\Codes\TypeErrors\TypeErrors.rsproj", "{1FCC2669-7237-4320-9994-F0B2113F5368}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Types2", "Chapter 2\Codes\Types2\Types2.rsproj", "{50B70E4E-8E04-4815-BE23-CA9BD4E659D7}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "ChangeConstant", "Chapter 2\Exercises\ChangeConstant\ChangeConstant.rsproj", "{9D14E973-5202-46DC-B36C-E82711422F55}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "CompoundLet", "Chapter 2\Exercises\CompoundLet\CompoundLet.rsproj", "{F52D8229-8D4B-4BFA-B3F9-C33F73C549C4}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Formatting", "Chapter 2\Exercises\Formatting\Formatting.rsproj", "{302BDE3F-2C94-44E9-87AC-02D7C332A0F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -87,6 +101,34 @@ Global
 		{12A0BE32-3497-4D83-94BA-B4B9836FF405}.Debug|default.Build.0 = Debug|default
 		{12A0BE32-3497-4D83-94BA-B4B9836FF405}.Release|default.ActiveCfg = Release|default
 		{12A0BE32-3497-4D83-94BA-B4B9836FF405}.Release|default.Build.0 = Release|default
+		{A574E86E-DA45-4672-8C73-4F8BB921D37F}.Debug|default.ActiveCfg = Debug|default
+		{A574E86E-DA45-4672-8C73-4F8BB921D37F}.Debug|default.Build.0 = Debug|default
+		{A574E86E-DA45-4672-8C73-4F8BB921D37F}.Release|default.ActiveCfg = Release|default
+		{A574E86E-DA45-4672-8C73-4F8BB921D37F}.Release|default.Build.0 = Release|default
+		{0FFC726C-593C-4CE0-B5AA-03AC6352DE50}.Debug|default.ActiveCfg = Debug|default
+		{0FFC726C-593C-4CE0-B5AA-03AC6352DE50}.Debug|default.Build.0 = Debug|default
+		{0FFC726C-593C-4CE0-B5AA-03AC6352DE50}.Release|default.ActiveCfg = Release|default
+		{0FFC726C-593C-4CE0-B5AA-03AC6352DE50}.Release|default.Build.0 = Release|default
+		{1FCC2669-7237-4320-9994-F0B2113F5368}.Debug|default.ActiveCfg = Debug|default
+		{1FCC2669-7237-4320-9994-F0B2113F5368}.Debug|default.Build.0 = Debug|default
+		{1FCC2669-7237-4320-9994-F0B2113F5368}.Release|default.ActiveCfg = Release|default
+		{1FCC2669-7237-4320-9994-F0B2113F5368}.Release|default.Build.0 = Release|default
+		{50B70E4E-8E04-4815-BE23-CA9BD4E659D7}.Debug|default.ActiveCfg = Debug|default
+		{50B70E4E-8E04-4815-BE23-CA9BD4E659D7}.Debug|default.Build.0 = Debug|default
+		{50B70E4E-8E04-4815-BE23-CA9BD4E659D7}.Release|default.ActiveCfg = Release|default
+		{50B70E4E-8E04-4815-BE23-CA9BD4E659D7}.Release|default.Build.0 = Release|default
+		{9D14E973-5202-46DC-B36C-E82711422F55}.Debug|default.ActiveCfg = Debug|default
+		{9D14E973-5202-46DC-B36C-E82711422F55}.Debug|default.Build.0 = Debug|default
+		{9D14E973-5202-46DC-B36C-E82711422F55}.Release|default.ActiveCfg = Release|default
+		{9D14E973-5202-46DC-B36C-E82711422F55}.Release|default.Build.0 = Release|default
+		{F52D8229-8D4B-4BFA-B3F9-C33F73C549C4}.Debug|default.ActiveCfg = Debug|default
+		{F52D8229-8D4B-4BFA-B3F9-C33F73C549C4}.Debug|default.Build.0 = Debug|default
+		{F52D8229-8D4B-4BFA-B3F9-C33F73C549C4}.Release|default.ActiveCfg = Release|default
+		{F52D8229-8D4B-4BFA-B3F9-C33F73C549C4}.Release|default.Build.0 = Release|default
+		{302BDE3F-2C94-44E9-87AC-02D7C332A0F4}.Debug|default.ActiveCfg = Debug|default
+		{302BDE3F-2C94-44E9-87AC-02D7C332A0F4}.Debug|default.Build.0 = Debug|default
+		{302BDE3F-2C94-44E9-87AC-02D7C332A0F4}.Release|default.ActiveCfg = Release|default
+		{302BDE3F-2C94-44E9-87AC-02D7C332A0F4}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,5 +149,12 @@ Global
 		{3143E9AD-3DF9-4A59-A557-1AC6E0FDC7DE} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
 		{062A4111-03C0-46D2-8BA1-CB4F4488E55F} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
 		{12A0BE32-3497-4D83-94BA-B4B9836FF405} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{A574E86E-DA45-4672-8C73-4F8BB921D37F} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{0FFC726C-593C-4CE0-B5AA-03AC6352DE50} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{1FCC2669-7237-4320-9994-F0B2113F5368} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{50B70E4E-8E04-4815-BE23-CA9BD4E659D7} = {BBA6987E-1B0E-4845-BF35-DF1E15F56A9B}
+		{9D14E973-5202-46DC-B36C-E82711422F55} = {5F548A6A-B4A9-4446-97F3-71CD01CB14BE}
+		{F52D8229-8D4B-4BFA-B3F9-C33F73C549C4} = {5F548A6A-B4A9-4446-97F3-71CD01CB14BE}
+		{302BDE3F-2C94-44E9-87AC-02D7C332A0F4} = {5F548A6A-B4A9-4446-97F3-71CD01CB14BE}
 	EndGlobalSection
 EndGlobal
