@@ -73,6 +73,8 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Loops", "Chapter 3\Codes\Lo
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Random", "Chapter 3\Codes\Random\Random.rsproj", "{CAF6B392-3194-4112-B371-DC5DF5D74DB5}"
 EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "WelcomeC", "Chapter 1\Codes\WelcomeC\WelcomeC.rsproj", "{0912F6F6-F29F-4313-87F0-39879CEA1797}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -183,6 +185,10 @@ Global
 		{CAF6B392-3194-4112-B371-DC5DF5D74DB5}.Debug|default.Build.0 = Debug|default
 		{CAF6B392-3194-4112-B371-DC5DF5D74DB5}.Release|default.ActiveCfg = Release|default
 		{CAF6B392-3194-4112-B371-DC5DF5D74DB5}.Release|default.Build.0 = Release|default
+		{0912F6F6-F29F-4313-87F0-39879CEA1797}.Debug|default.ActiveCfg = Debug|default
+		{0912F6F6-F29F-4313-87F0-39879CEA1797}.Debug|default.Build.0 = Debug|default
+		{0912F6F6-F29F-4313-87F0-39879CEA1797}.Release|default.ActiveCfg = Release|default
+		{0912F6F6-F29F-4313-87F0-39879CEA1797}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,5 +226,6 @@ Global
 		{295A8AC2-BBC1-4997-9DA1-5F52B608C09D} = {F22C8C11-E66C-4A44-BD85-DCA49EE63884}
 		{2516A609-7490-4734-9FC5-D3E847495B01} = {F22C8C11-E66C-4A44-BD85-DCA49EE63884}
 		{CAF6B392-3194-4112-B371-DC5DF5D74DB5} = {F22C8C11-E66C-4A44-BD85-DCA49EE63884}
+		{0912F6F6-F29F-4313-87F0-39879CEA1797} = {107429B8-2121-486D-A455-94F04D080F4D}
 	EndGlobalSection
 EndGlobal
