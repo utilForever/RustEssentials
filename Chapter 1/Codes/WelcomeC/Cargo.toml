@@ -1,0 +1,6 @@
+[package]
+name = "WelcomeC"
+version = "0.1.0"
+authors = ["Chris Ohk <utilForever@gmail.com>"]
+
+[dependencies]
