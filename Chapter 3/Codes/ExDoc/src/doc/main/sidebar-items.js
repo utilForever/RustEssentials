@@ -1,1 +1,0 @@
-initSidebarItems({"fn":[["cube","Calculates the cube `val * val * val`."]]});
