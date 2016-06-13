@@ -83,6 +83,28 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "IfReturn", "Chapter 3\Exerc
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "IfTest", "Chapter 3\Exercises\IfTest\IfTest.rsproj", "{181B7E9B-257D-46F2-9FF2-9B91989F2BBF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 4", "Chapter 4", "{5EBD0710-7ABD-467B-801D-F3241D27CD6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codes", "Codes", "{C2F26690-893F-4715-B796-9753EABF098C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{13EF49F6-D7D9-4F9A-85E7-F75EFE486389}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Arrays", "Chapter 4\Codes\Arrays\Arrays.rsproj", "{CC9580F3-FFCA-44C1-B597-F43593612323}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Enums", "Chapter 4\Codes\Enums\Enums.rsproj", "{B34803A1-9AB5-4C9B-9683-EE821215FA60}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Input", "Chapter 4\Codes\Input\Input.rsproj", "{DC0176E1-DE34-4512-9C83-D6161FC2145A}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "PatternMatch", "Chapter 4\Codes\PatternMatch\PatternMatch.rsproj", "{10663EF8-1212-4CBC-B3CC-F1E2D5FD88D6}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "PatternMatch2", "Chapter 4\Codes\PatternMatch2\PatternMatch2.rsproj", "{591F5A2C-6E0D-4D77-9235-37E4A3E752A5}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Strings", "Chapter 4\Codes\Strings\Strings.rsproj", "{6231B550-6B67-4788-95C5-5102A0D1B81C}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Structs", "Chapter 4\Codes\Structs\Structs.rsproj", "{1B8AA433-F048-4E30-BA1C-588BCB5FC497}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Tuples", "Chapter 4\Codes\Tuples\Tuples.rsproj", "{C98E0D8D-EDAF-4B30-8797-E3F54158564E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -213,6 +235,38 @@ Global
 		{181B7E9B-257D-46F2-9FF2-9B91989F2BBF}.Debug|default.Build.0 = Debug|default
 		{181B7E9B-257D-46F2-9FF2-9B91989F2BBF}.Release|default.ActiveCfg = Release|default
 		{181B7E9B-257D-46F2-9FF2-9B91989F2BBF}.Release|default.Build.0 = Release|default
+		{CC9580F3-FFCA-44C1-B597-F43593612323}.Debug|default.ActiveCfg = Debug|default
+		{CC9580F3-FFCA-44C1-B597-F43593612323}.Debug|default.Build.0 = Debug|default
+		{CC9580F3-FFCA-44C1-B597-F43593612323}.Release|default.ActiveCfg = Release|default
+		{CC9580F3-FFCA-44C1-B597-F43593612323}.Release|default.Build.0 = Release|default
+		{B34803A1-9AB5-4C9B-9683-EE821215FA60}.Debug|default.ActiveCfg = Debug|default
+		{B34803A1-9AB5-4C9B-9683-EE821215FA60}.Debug|default.Build.0 = Debug|default
+		{B34803A1-9AB5-4C9B-9683-EE821215FA60}.Release|default.ActiveCfg = Release|default
+		{B34803A1-9AB5-4C9B-9683-EE821215FA60}.Release|default.Build.0 = Release|default
+		{DC0176E1-DE34-4512-9C83-D6161FC2145A}.Debug|default.ActiveCfg = Debug|default
+		{DC0176E1-DE34-4512-9C83-D6161FC2145A}.Debug|default.Build.0 = Debug|default
+		{DC0176E1-DE34-4512-9C83-D6161FC2145A}.Release|default.ActiveCfg = Release|default
+		{DC0176E1-DE34-4512-9C83-D6161FC2145A}.Release|default.Build.0 = Release|default
+		{10663EF8-1212-4CBC-B3CC-F1E2D5FD88D6}.Debug|default.ActiveCfg = Debug|default
+		{10663EF8-1212-4CBC-B3CC-F1E2D5FD88D6}.Debug|default.Build.0 = Debug|default
+		{10663EF8-1212-4CBC-B3CC-F1E2D5FD88D6}.Release|default.ActiveCfg = Release|default
+		{10663EF8-1212-4CBC-B3CC-F1E2D5FD88D6}.Release|default.Build.0 = Release|default
+		{591F5A2C-6E0D-4D77-9235-37E4A3E752A5}.Debug|default.ActiveCfg = Debug|default
+		{591F5A2C-6E0D-4D77-9235-37E4A3E752A5}.Debug|default.Build.0 = Debug|default
+		{591F5A2C-6E0D-4D77-9235-37E4A3E752A5}.Release|default.ActiveCfg = Release|default
+		{591F5A2C-6E0D-4D77-9235-37E4A3E752A5}.Release|default.Build.0 = Release|default
+		{6231B550-6B67-4788-95C5-5102A0D1B81C}.Debug|default.ActiveCfg = Debug|default
+		{6231B550-6B67-4788-95C5-5102A0D1B81C}.Debug|default.Build.0 = Debug|default
+		{6231B550-6B67-4788-95C5-5102A0D1B81C}.Release|default.ActiveCfg = Release|default
+		{6231B550-6B67-4788-95C5-5102A0D1B81C}.Release|default.Build.0 = Release|default
+		{1B8AA433-F048-4E30-BA1C-588BCB5FC497}.Debug|default.ActiveCfg = Debug|default
+		{1B8AA433-F048-4E30-BA1C-588BCB5FC497}.Debug|default.Build.0 = Debug|default
+		{1B8AA433-F048-4E30-BA1C-588BCB5FC497}.Release|default.ActiveCfg = Release|default
+		{1B8AA433-F048-4E30-BA1C-588BCB5FC497}.Release|default.Build.0 = Release|default
+		{C98E0D8D-EDAF-4B30-8797-E3F54158564E}.Debug|default.ActiveCfg = Debug|default
+		{C98E0D8D-EDAF-4B30-8797-E3F54158564E}.Debug|default.Build.0 = Debug|default
+		{C98E0D8D-EDAF-4B30-8797-E3F54158564E}.Release|default.ActiveCfg = Release|default
+		{C98E0D8D-EDAF-4B30-8797-E3F54158564E}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,5 +309,15 @@ Global
 		{76228BF6-F99F-4A2D-8BF0-F71731D38342} = {5F094A49-51C8-4390-94E9-38A40FE58CEE}
 		{E9F2F1ED-8747-4005-9702-15A27A9B65CE} = {5F094A49-51C8-4390-94E9-38A40FE58CEE}
 		{181B7E9B-257D-46F2-9FF2-9B91989F2BBF} = {5F094A49-51C8-4390-94E9-38A40FE58CEE}
+		{C2F26690-893F-4715-B796-9753EABF098C} = {5EBD0710-7ABD-467B-801D-F3241D27CD6D}
+		{13EF49F6-D7D9-4F9A-85E7-F75EFE486389} = {5EBD0710-7ABD-467B-801D-F3241D27CD6D}
+		{CC9580F3-FFCA-44C1-B597-F43593612323} = {C2F26690-893F-4715-B796-9753EABF098C}
+		{B34803A1-9AB5-4C9B-9683-EE821215FA60} = {C2F26690-893F-4715-B796-9753EABF098C}
+		{DC0176E1-DE34-4512-9C83-D6161FC2145A} = {C2F26690-893F-4715-B796-9753EABF098C}
+		{10663EF8-1212-4CBC-B3CC-F1E2D5FD88D6} = {C2F26690-893F-4715-B796-9753EABF098C}
+		{591F5A2C-6E0D-4D77-9235-37E4A3E752A5} = {C2F26690-893F-4715-B796-9753EABF098C}
+		{6231B550-6B67-4788-95C5-5102A0D1B81C} = {C2F26690-893F-4715-B796-9753EABF098C}
+		{1B8AA433-F048-4E30-BA1C-588BCB5FC497} = {C2F26690-893F-4715-B796-9753EABF098C}
+		{C98E0D8D-EDAF-4B30-8797-E3F54158564E} = {C2F26690-893F-4715-B796-9753EABF098C}
 	EndGlobalSection
 EndGlobal
