@@ -113,6 +113,16 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "PatternMatch", "Chapter 4\E
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "TuplesEx", "Chapter 4\Exercises\TuplesEx\TuplesEx.rsproj", "{58635DD8-E273-4ED7-8054-A08B061B5F88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 5", "Chapter 5", "{0E4CB966-2FBC-4D64-B68E-E285259C96A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codes", "Codes", "{6F913B23-B454-4195-AAE5-4E1F29244206}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{B54738A5-2BB3-4471-A240-1DF7D9EFADA4}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "AdaptersConsumers", "Chapter 5\Codes\AdaptersConsumers\AdaptersConsumers.rsproj", "{42E5B451-4000-4BFC-B791-AD48393ACF19}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Errors", "Chapter 5\Codes\Errors\Errors.rsproj", "{D9124F77-C1B5-4949-BE4D-49BF258EA4F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -291,6 +301,14 @@ Global
 		{58635DD8-E273-4ED7-8054-A08B061B5F88}.Debug|default.Build.0 = Debug|default
 		{58635DD8-E273-4ED7-8054-A08B061B5F88}.Release|default.ActiveCfg = Release|default
 		{58635DD8-E273-4ED7-8054-A08B061B5F88}.Release|default.Build.0 = Release|default
+		{42E5B451-4000-4BFC-B791-AD48393ACF19}.Debug|default.ActiveCfg = Debug|default
+		{42E5B451-4000-4BFC-B791-AD48393ACF19}.Debug|default.Build.0 = Debug|default
+		{42E5B451-4000-4BFC-B791-AD48393ACF19}.Release|default.ActiveCfg = Release|default
+		{42E5B451-4000-4BFC-B791-AD48393ACF19}.Release|default.Build.0 = Release|default
+		{D9124F77-C1B5-4949-BE4D-49BF258EA4F6}.Debug|default.ActiveCfg = Debug|default
+		{D9124F77-C1B5-4949-BE4D-49BF258EA4F6}.Debug|default.Build.0 = Debug|default
+		{D9124F77-C1B5-4949-BE4D-49BF258EA4F6}.Release|default.ActiveCfg = Release|default
+		{D9124F77-C1B5-4949-BE4D-49BF258EA4F6}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -347,5 +365,9 @@ Global
 		{F7CD3070-B61A-4E34-A7B9-19DD8B90CB56} = {13EF49F6-D7D9-4F9A-85E7-F75EFE486389}
 		{F0FE0CE3-DED8-40BE-9191-4FE889E65BA4} = {13EF49F6-D7D9-4F9A-85E7-F75EFE486389}
 		{58635DD8-E273-4ED7-8054-A08B061B5F88} = {13EF49F6-D7D9-4F9A-85E7-F75EFE486389}
+		{6F913B23-B454-4195-AAE5-4E1F29244206} = {0E4CB966-2FBC-4D64-B68E-E285259C96A1}
+		{B54738A5-2BB3-4471-A240-1DF7D9EFADA4} = {0E4CB966-2FBC-4D64-B68E-E285259C96A1}
+		{42E5B451-4000-4BFC-B791-AD48393ACF19} = {6F913B23-B454-4195-AAE5-4E1F29244206}
+		{D9124F77-C1B5-4949-BE4D-49BF258EA4F6} = {6F913B23-B454-4195-AAE5-4E1F29244206}
 	EndGlobalSection
 EndGlobal
