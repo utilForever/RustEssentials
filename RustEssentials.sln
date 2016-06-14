@@ -175,6 +175,24 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "GrowTentacle", "Chapter 6\E
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Ownership3", "Chapter 6\Exercises\Ownership3\Ownership3.rsproj", "{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 7", "Chapter 7", "{C71D317A-8947-450F-8FBE-C72AB63B51B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codes", "Codes", "{2F7F3183-F782-48EE-86A1-6F399375D25D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{B5919980-E014-4CE6-AB6F-821DB4FCAB73}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Structs", "Chapter 7\Codes\Structs\Structs.rsproj", "{1CF5E6A0-E30C-4989-B6E6-439B2C0E1552}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Modules", "Chapter 7\Codes\Modules\Modules.rsproj", "{FF9A90CC-7802-4E62-A22A-BEDAB5B1973C}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "ImportModules", "Chapter 7\Codes\ImportModules\ImportModules.rsproj", "{F37A4E41-EEE6-480F-BDB3-8CC26A969931}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Monsters", "Chapter 7\Codes\Monsters\Monsters.rsproj", "{3531234A-0E96-4691-A806-0D1749BB7E92}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Cube", "Chapter 7\Codes\Cube\Cube.rsproj", "{5B83A30B-48E4-456E-BC56-EE107A6E20F1}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Macros", "Chapter 7\Codes\Macros\Macros.rsproj", "{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -453,6 +471,30 @@ Global
 		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}.Debug|default.Build.0 = Debug|default
 		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}.Release|default.ActiveCfg = Release|default
 		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}.Release|default.Build.0 = Release|default
+		{1CF5E6A0-E30C-4989-B6E6-439B2C0E1552}.Debug|default.ActiveCfg = Debug|default
+		{1CF5E6A0-E30C-4989-B6E6-439B2C0E1552}.Debug|default.Build.0 = Debug|default
+		{1CF5E6A0-E30C-4989-B6E6-439B2C0E1552}.Release|default.ActiveCfg = Release|default
+		{1CF5E6A0-E30C-4989-B6E6-439B2C0E1552}.Release|default.Build.0 = Release|default
+		{FF9A90CC-7802-4E62-A22A-BEDAB5B1973C}.Debug|default.ActiveCfg = Debug|default
+		{FF9A90CC-7802-4E62-A22A-BEDAB5B1973C}.Debug|default.Build.0 = Debug|default
+		{FF9A90CC-7802-4E62-A22A-BEDAB5B1973C}.Release|default.ActiveCfg = Release|default
+		{FF9A90CC-7802-4E62-A22A-BEDAB5B1973C}.Release|default.Build.0 = Release|default
+		{F37A4E41-EEE6-480F-BDB3-8CC26A969931}.Debug|default.ActiveCfg = Debug|default
+		{F37A4E41-EEE6-480F-BDB3-8CC26A969931}.Debug|default.Build.0 = Debug|default
+		{F37A4E41-EEE6-480F-BDB3-8CC26A969931}.Release|default.ActiveCfg = Release|default
+		{F37A4E41-EEE6-480F-BDB3-8CC26A969931}.Release|default.Build.0 = Release|default
+		{3531234A-0E96-4691-A806-0D1749BB7E92}.Debug|default.ActiveCfg = Debug|default
+		{3531234A-0E96-4691-A806-0D1749BB7E92}.Debug|default.Build.0 = Debug|default
+		{3531234A-0E96-4691-A806-0D1749BB7E92}.Release|default.ActiveCfg = Release|default
+		{3531234A-0E96-4691-A806-0D1749BB7E92}.Release|default.Build.0 = Release|default
+		{5B83A30B-48E4-456E-BC56-EE107A6E20F1}.Debug|default.ActiveCfg = Debug|default
+		{5B83A30B-48E4-456E-BC56-EE107A6E20F1}.Debug|default.Build.0 = Debug|default
+		{5B83A30B-48E4-456E-BC56-EE107A6E20F1}.Release|default.ActiveCfg = Release|default
+		{5B83A30B-48E4-456E-BC56-EE107A6E20F1}.Release|default.Build.0 = Release|default
+		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}.Debug|default.ActiveCfg = Debug|default
+		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}.Debug|default.Build.0 = Debug|default
+		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}.Release|default.ActiveCfg = Release|default
+		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -538,5 +580,13 @@ Global
 		{F6220DEE-DA0B-4DE6-81AE-312EC0E47853} = {6D0F5DF6-C590-4F25-8C2D-1F815E0E6FB7}
 		{26AACAA2-D861-49AC-A055-5BC060D08CF4} = {6D0F5DF6-C590-4F25-8C2D-1F815E0E6FB7}
 		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5} = {6D0F5DF6-C590-4F25-8C2D-1F815E0E6FB7}
+		{2F7F3183-F782-48EE-86A1-6F399375D25D} = {C71D317A-8947-450F-8FBE-C72AB63B51B2}
+		{B5919980-E014-4CE6-AB6F-821DB4FCAB73} = {C71D317A-8947-450F-8FBE-C72AB63B51B2}
+		{1CF5E6A0-E30C-4989-B6E6-439B2C0E1552} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
+		{FF9A90CC-7802-4E62-A22A-BEDAB5B1973C} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
+		{F37A4E41-EEE6-480F-BDB3-8CC26A969931} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
+		{3531234A-0E96-4691-A806-0D1749BB7E92} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
+		{5B83A30B-48E4-456E-BC56-EE107A6E20F1} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
+		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
 	EndGlobalSection
 EndGlobal
