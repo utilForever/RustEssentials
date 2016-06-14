@@ -193,6 +193,10 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Cube", "Chapter 7\Codes\Cub
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Macros", "Chapter 7\Codes\Macros\Macros.rsproj", "{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}"
 EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "MacroEx", "Chapter 7\Exercises\MacroEx\MacroEx.rsproj", "{89E6C70A-CA79-4576-B249-AD380D27D5CB}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "PrivStruct", "Chapter 7\Exercises\PrivStruct\PrivStruct.rsproj", "{EC99632C-032A-45D2-A18A-2697B5D7FEEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -495,6 +499,14 @@ Global
 		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}.Debug|default.Build.0 = Debug|default
 		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}.Release|default.ActiveCfg = Release|default
 		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889}.Release|default.Build.0 = Release|default
+		{89E6C70A-CA79-4576-B249-AD380D27D5CB}.Debug|default.ActiveCfg = Debug|default
+		{89E6C70A-CA79-4576-B249-AD380D27D5CB}.Debug|default.Build.0 = Debug|default
+		{89E6C70A-CA79-4576-B249-AD380D27D5CB}.Release|default.ActiveCfg = Release|default
+		{89E6C70A-CA79-4576-B249-AD380D27D5CB}.Release|default.Build.0 = Release|default
+		{EC99632C-032A-45D2-A18A-2697B5D7FEEC}.Debug|default.ActiveCfg = Debug|default
+		{EC99632C-032A-45D2-A18A-2697B5D7FEEC}.Debug|default.Build.0 = Debug|default
+		{EC99632C-032A-45D2-A18A-2697B5D7FEEC}.Release|default.ActiveCfg = Release|default
+		{EC99632C-032A-45D2-A18A-2697B5D7FEEC}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -588,5 +600,7 @@ Global
 		{3531234A-0E96-4691-A806-0D1749BB7E92} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
 		{5B83A30B-48E4-456E-BC56-EE107A6E20F1} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
 		{F4960EF6-06EB-40EB-BD0F-6DAC947AF889} = {2F7F3183-F782-48EE-86A1-6F399375D25D}
+		{89E6C70A-CA79-4576-B249-AD380D27D5CB} = {B5919980-E014-4CE6-AB6F-821DB4FCAB73}
+		{EC99632C-032A-45D2-A18A-2697B5D7FEEC} = {B5919980-E014-4CE6-AB6F-821DB4FCAB73}
 	EndGlobalSection
 EndGlobal
