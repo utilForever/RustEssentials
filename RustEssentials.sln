@@ -133,6 +133,16 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Methods", "Chapter 5\Codes\
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Traits", "Chapter 5\Codes\Traits\Traits.rsproj", "{15C87AC3-E977-432F-8797-90384D7DE759}"
 EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "TraitConstraints", "Chapter 5\Codes\TraitConstraints\TraitConstraints.rsproj", "{4313C201-CCCA-4524-A53B-1E698B2F0938}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Complex", "Chapter 5\Exercises\Complex\Complex.rsproj", "{E7814865-8A5F-4B99-88E6-3EAD889FE5E5}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "DrawTrait", "Chapter 5\Exercises\DrawTrait\DrawTrait.rsproj", "{F13BCA09-05BA-40ED-86AE-7985E028D62A}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Fold", "Chapter 5\Exercises\Fold\Fold.rsproj", "{115DB562-609B-486A-8BC1-5F5DCC6550DE}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "RangeNext", "Chapter 5\Exercises\RangeNext\RangeNext.rsproj", "{A0B3B1B4-D557-4AD9-A79C-35FCDC77FD02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -339,6 +349,26 @@ Global
 		{15C87AC3-E977-432F-8797-90384D7DE759}.Debug|default.Build.0 = Debug|default
 		{15C87AC3-E977-432F-8797-90384D7DE759}.Release|default.ActiveCfg = Release|default
 		{15C87AC3-E977-432F-8797-90384D7DE759}.Release|default.Build.0 = Release|default
+		{4313C201-CCCA-4524-A53B-1E698B2F0938}.Debug|default.ActiveCfg = Debug|default
+		{4313C201-CCCA-4524-A53B-1E698B2F0938}.Debug|default.Build.0 = Debug|default
+		{4313C201-CCCA-4524-A53B-1E698B2F0938}.Release|default.ActiveCfg = Release|default
+		{4313C201-CCCA-4524-A53B-1E698B2F0938}.Release|default.Build.0 = Release|default
+		{E7814865-8A5F-4B99-88E6-3EAD889FE5E5}.Debug|default.ActiveCfg = Debug|default
+		{E7814865-8A5F-4B99-88E6-3EAD889FE5E5}.Debug|default.Build.0 = Debug|default
+		{E7814865-8A5F-4B99-88E6-3EAD889FE5E5}.Release|default.ActiveCfg = Release|default
+		{E7814865-8A5F-4B99-88E6-3EAD889FE5E5}.Release|default.Build.0 = Release|default
+		{F13BCA09-05BA-40ED-86AE-7985E028D62A}.Debug|default.ActiveCfg = Debug|default
+		{F13BCA09-05BA-40ED-86AE-7985E028D62A}.Debug|default.Build.0 = Debug|default
+		{F13BCA09-05BA-40ED-86AE-7985E028D62A}.Release|default.ActiveCfg = Release|default
+		{F13BCA09-05BA-40ED-86AE-7985E028D62A}.Release|default.Build.0 = Release|default
+		{115DB562-609B-486A-8BC1-5F5DCC6550DE}.Debug|default.ActiveCfg = Debug|default
+		{115DB562-609B-486A-8BC1-5F5DCC6550DE}.Debug|default.Build.0 = Debug|default
+		{115DB562-609B-486A-8BC1-5F5DCC6550DE}.Release|default.ActiveCfg = Release|default
+		{115DB562-609B-486A-8BC1-5F5DCC6550DE}.Release|default.Build.0 = Release|default
+		{A0B3B1B4-D557-4AD9-A79C-35FCDC77FD02}.Debug|default.ActiveCfg = Debug|default
+		{A0B3B1B4-D557-4AD9-A79C-35FCDC77FD02}.Debug|default.Build.0 = Debug|default
+		{A0B3B1B4-D557-4AD9-A79C-35FCDC77FD02}.Release|default.ActiveCfg = Release|default
+		{A0B3B1B4-D557-4AD9-A79C-35FCDC77FD02}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -404,5 +434,10 @@ Global
 		{BDFDBB46-0BBE-48AF-95D2-2F1752F643B6} = {6F913B23-B454-4195-AAE5-4E1F29244206}
 		{642E20C9-4047-46C3-B820-D048D7F8DC61} = {6F913B23-B454-4195-AAE5-4E1F29244206}
 		{15C87AC3-E977-432F-8797-90384D7DE759} = {6F913B23-B454-4195-AAE5-4E1F29244206}
+		{4313C201-CCCA-4524-A53B-1E698B2F0938} = {6F913B23-B454-4195-AAE5-4E1F29244206}
+		{E7814865-8A5F-4B99-88E6-3EAD889FE5E5} = {B54738A5-2BB3-4471-A240-1DF7D9EFADA4}
+		{F13BCA09-05BA-40ED-86AE-7985E028D62A} = {B54738A5-2BB3-4471-A240-1DF7D9EFADA4}
+		{115DB562-609B-486A-8BC1-5F5DCC6550DE} = {B54738A5-2BB3-4471-A240-1DF7D9EFADA4}
+		{A0B3B1B4-D557-4AD9-A79C-35FCDC77FD02} = {B54738A5-2BB3-4471-A240-1DF7D9EFADA4}
 	EndGlobalSection
 EndGlobal
