@@ -169,6 +169,12 @@ Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "RefCount", "Chapter 6\Codes
 EndProject
 Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "References", "Chapter 6\Codes\References\References.rsproj", "{78630DBD-1BD6-4173-A02C-8CD041F38FD5}"
 EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "DanglingPointer", "Chapter 6\Exercises\DanglingPointer\DanglingPointer.rsproj", "{F6220DEE-DA0B-4DE6-81AE-312EC0E47853}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "GrowTentacle", "Chapter 6\Exercises\GrowTentacle\GrowTentacle.rsproj", "{26AACAA2-D861-49AC-A055-5BC060D08CF4}"
+EndProject
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "Ownership3", "Chapter 6\Exercises\Ownership3\Ownership3.rsproj", "{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|default = Debug|default
@@ -435,6 +441,18 @@ Global
 		{78630DBD-1BD6-4173-A02C-8CD041F38FD5}.Debug|default.Build.0 = Debug|default
 		{78630DBD-1BD6-4173-A02C-8CD041F38FD5}.Release|default.ActiveCfg = Release|default
 		{78630DBD-1BD6-4173-A02C-8CD041F38FD5}.Release|default.Build.0 = Release|default
+		{F6220DEE-DA0B-4DE6-81AE-312EC0E47853}.Debug|default.ActiveCfg = Debug|default
+		{F6220DEE-DA0B-4DE6-81AE-312EC0E47853}.Debug|default.Build.0 = Debug|default
+		{F6220DEE-DA0B-4DE6-81AE-312EC0E47853}.Release|default.ActiveCfg = Release|default
+		{F6220DEE-DA0B-4DE6-81AE-312EC0E47853}.Release|default.Build.0 = Release|default
+		{26AACAA2-D861-49AC-A055-5BC060D08CF4}.Debug|default.ActiveCfg = Debug|default
+		{26AACAA2-D861-49AC-A055-5BC060D08CF4}.Debug|default.Build.0 = Debug|default
+		{26AACAA2-D861-49AC-A055-5BC060D08CF4}.Release|default.ActiveCfg = Release|default
+		{26AACAA2-D861-49AC-A055-5BC060D08CF4}.Release|default.Build.0 = Release|default
+		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}.Debug|default.ActiveCfg = Debug|default
+		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}.Debug|default.Build.0 = Debug|default
+		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}.Release|default.ActiveCfg = Release|default
+		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5}.Release|default.Build.0 = Release|default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -517,5 +535,8 @@ Global
 		{FAE880EE-F103-4F43-B3DB-43944A9754D5} = {855DB761-B551-4C26-B329-87E8F0BFFE6E}
 		{8DACEBC9-590E-4270-A412-6B686806E298} = {855DB761-B551-4C26-B329-87E8F0BFFE6E}
 		{78630DBD-1BD6-4173-A02C-8CD041F38FD5} = {855DB761-B551-4C26-B329-87E8F0BFFE6E}
+		{F6220DEE-DA0B-4DE6-81AE-312EC0E47853} = {6D0F5DF6-C590-4F25-8C2D-1F815E0E6FB7}
+		{26AACAA2-D861-49AC-A055-5BC060D08CF4} = {6D0F5DF6-C590-4F25-8C2D-1F815E0E6FB7}
+		{A1D4A55F-1A91-4FAC-A240-9A7F0C35FDD5} = {6D0F5DF6-C590-4F25-8C2D-1F815E0E6FB7}
 	EndGlobalSection
 EndGlobal
