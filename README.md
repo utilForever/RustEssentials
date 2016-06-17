@@ -2,6 +2,22 @@
 
 ###### Examples in "Rust Essentials" Book
 
+<img align="right" src="https://www.rust-lang.org/logos/rust-logo-blk.svg">
+
+<B>Rust</B> is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. 
+
+## Featuring
+
+- Zero-cost abstractions
+- move semantics
+- guaranteed memory safety
+- threads without data races
+- trait-based generics
+- pattern matching
+- type inference
+- minimal runtime
+- efficient C bindings
+
 ## About
 
 Examples in "Rust Essentials" book are built by Rust 1.0.0.
