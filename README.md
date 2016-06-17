@@ -14,6 +14,244 @@ So, I tested all examples by Rust 1.9.0(stable) and 1.11.0(nightly).
 
 ## Diagram
 
+### Chapter 1
+
+#### Codes
+
+- Welcome
+
+- WelcomeC (use cargo)
+
+#### Exercises
+
+- Name
+
+- SmallestProgram
+
+### Chapter 2
+
+#### Codes
+
+- Alias
+
+- Bindings
+
+- Comments
+
+- Constants1
+
+- Constants2
+
+- Expressions
+
+- MutableConstant
+
+- References
+
+- Scope
+
+- TypeConversions
+
+- TypeErrors
+
+- Types2
+
+#### Exercises
+
+- ChangeConstant
+
+- CompoundLet
+
+- Formatting
+
+### Chapter 3
+
+#### Codes
+
+- AttributesCfg
+
+- AttributesTesting
+
+- ExDoc (use rustdoc)
+
+- Functions
+
+- IfElse
+
+- IterStep
+
+- Loops
+
+- MyLib (use cargo)
+
+- Random (use cargo)
+
+#### Exercises
+
+- Absolute
+
+- IfReturn
+
+- IfTest
+
+### Chapter 4
+
+#### Codes
+
+- Arrays
+
+- Enums
+
+- Input
+
+- PatternMatch
+
+- PatternMatch2
+
+- Strings
+
+- Structs
+
+- Tuples
+
+#### Exercises
+
+- CharsString
+
+- Monster
+
+- PatternMatch
+
+- TuplesEx
+
+### Chapter 5
+
+#### Codes
+
+- AdapterConsumers
+
+- Errors
+
+- Generics
+
+- HigherFunctions
+
+- Iterators
+
+- Methods
+
+- TraitConstraints (use cargo)
+
+- Traits
+
+#### Exercises
+
+- Complex
+
+- DrawTrait
+
+- Fold
+
+- RangeNext
+
+### Chapter 6
+
+#### Codes
+
+- Boxes1
+
+- Boxes2
+
+- Errors
+
+- Lifetimes
+
+- Ownership1
+
+- Ownership2
+
+- Ref
+
+- RefCount
+
+- RefCountNotGood
+
+- References
+
+#### Exercises
+
+- DanglingPointer
+
+- GrowTentacle
+
+- Ownership3
+
+### Chapter 7
+
+#### Codes
+
+- Cube (use cargo)
+
+- ImportModules
+
+- Macros
+
+- Modules
+
+- Monsters (use cargo)
+
+- Structs
+
+#### Exercises
+
+- MacroEx
+
+- PrivStruct
+
+### Chapter 8
+
+#### Codes
+
+- Channels
+
+- Channels2
+
+- MakeChannel
+
+- ManyThreads
+
+- ManyThreads2 (use cargo)
+
+- NotShared
+
+- PanicThread
+
+- SyncChannel
+
+- ThreadSafe
+
+- ThreadSpawn
+
+#### Exercises
+
+- SharedChannel
+
+### Chapter 9
+
+#### Codes
+
+- Arguments
+
+- Asm (use nightly)
+
+- CallingCLibrary
+
+- CallingLibc (use nightly)
+
+- RawPointers
+
+- Unsafe
+
 ## Dependencies
 
 * Rust Stable Release (1.9.0)
