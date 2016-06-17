@@ -1,6 +1,6 @@
 # Rust Essentials
 
-###### Examples in "Rust Essentials" Book
+###### Examples in ["Rust Essentials"](https://www.packtpub.com/application-development/rust-essentials) Book
 
 <img align="right" src="https://www.rust-lang.org/logos/rust-logo-blk.svg">
 
@@ -18,9 +18,11 @@
 - minimal runtime
 - efficient C bindings
 
+<img align="right" src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/5769OS_Rust%20Essentials.jpg">
+
 ## About
 
-Examples in "Rust Essentials" book are built by Rust 1.0.0.
+Examples in ["Rust Essentials"](https://www.packtpub.com/application-development/rust-essentials) book are built by Rust 1.0.0.
 
 Currently, however, Rust stable version is 1.9.0.
 
